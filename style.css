@@ -426,14 +426,14 @@ footer {
   }
 
   /* Contact Us */
-  #contact-content > .row{
+  #contact-content > .row {
     width: 50%;
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
   }
-  
-  #contact-content > .row > button{
+
+  #contact-content > .row > button {
     max-width: 25%;
     margin: 0 3rem;
   }
@@ -447,14 +447,18 @@ footer {
     align-items: center;
   }
 
-  .content-item > img{
+  .content-item > img {
     order: 2;
     margin-left: 100px;
   }
 
   .contact-card {
-    height:fit-content;
+    height: fit-content;
     padding: 2rem;
+  }
+
+  .content {
+    padding: 3em 0;
   }
   
 }
