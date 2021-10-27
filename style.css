@@ -25,6 +25,8 @@ body {
   display: flex;
 }
 
+
+
 .navbar-brand > img {
   width: 120px;
 }
@@ -42,7 +44,9 @@ body {
 }
 
 .banner {
+
   padding: 1rem;
+ 
 }
 
 .bannerText,
@@ -382,7 +386,32 @@ footer {
   .navbar-brand > img {
     width: 174px;
   }
-
+  .back {
+    margin-top: 40px;
+   
+  
+  }
+  .back > a {
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bolder;
+    padding: 8px 16px;
+    color: black;
+  }
+  .back > a:hover {
+    
+      background-color: rgb(236, 84, 84);
+      color: rgb(255, 255, 255);
+    
+  }
+  .back .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  .back .around {
+    border-radius: 50%;
+  }
+  
   .banner {
     height: 80vh;
   }
@@ -457,4 +486,7 @@ footer {
     padding: 2rem;
   }
   
+
+
+
 }
